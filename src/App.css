@@ -1,0 +1,181 @@
+
+#map{
+  height: 100vh;
+}
+.App {
+  text-align: center;
+
+}
+#log{
+  background-image: url(./components/bg-img1.jpg);
+  background-repeat: none;
+  background-size: 100vw;
+  height: 100vh;
+  /* background-color: pink; */
+}
+#reg
+{
+  background-image: url(./components/bg-img1.jpg);
+  background-repeat: none;
+  background-size: 100vw;
+  height: 100vh;
+  /* background-color: pink; */
+
+}
+/* #Searchcabs{
+  text-decoration: none;
+  color: red;
+} */
+#makespace{
+  height: 100px;
+}
+
+
+.bgforapp{
+  /* background-color: red; */
+  /* background-image: url(./components/bg-img1.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
+}
+.ft{
+  background-image: url(./components/bg-img1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0px;
+}
+.navbar11{
+  justify-content: end;
+}
+
+.ft{
+  padding: 0px;
+}
+.bike{
+  padding-left: 0px;
+  width:190px;
+}
+.bike:hover{
+  background-color: lightgreen;
+  opacity: 0.7;
+
+}
+.fleetss{
+  background-color: #eee;
+  
+}
+
+.auto:hover{
+  background-color: lightblue;
+  opacity: 0.7;
+}
+
+.primesedan:hover{
+  background-color: lightcoral;
+  opacity: 0.7;
+}
+
+.primesuv:hover{
+  background-color: yellow;
+  opacity: 0.7;
+}
+
+
+.mini:hover{
+  background-color: orange;
+  opacity: 0.7;
+}
+
+
+.kaalipeeli:hover{
+  background-color: lightpink;
+  opacity: 0.7;
+}
+
+.autoText a{
+text-decoration: none;
+font-family: 'Baloo Bhai 2';
+font-weight: bold;
+}
+
+.bikeText a{
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2';
+font-weight: bold;
+}
+
+.miniText a{
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2';
+font-weight: bold;
+}
+
+
+.primesedanText a{
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2';
+font-weight: bold;
+}
+
+
+.primesuvText a{
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2';
+  font-weight: bold;
+}
+
+.kaalipeeliText a{
+  text-decoration: none;
+  font-family: 'Baloo Bhai 2';
+font-weight: bold;
+  
+}
+
+.primesuv{
+  padding-left: 10px;
+  width:190px;
+  height: 200px;
+}
+
+.navbar{
+  width:100vw;
+  padding: 0px;
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* background-image: url(./components/j.jpg); */
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
